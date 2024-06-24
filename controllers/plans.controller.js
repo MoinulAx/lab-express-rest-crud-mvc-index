@@ -7,6 +7,4 @@ plansController.get("/", (req, res) => {
     res.send(plansData);
 });
 
-module.exports = {
-    plansController
-}
+module.exports =  plansController

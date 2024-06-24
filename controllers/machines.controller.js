@@ -9,6 +9,4 @@ machineController.get("/", (req, res) => {
     res.send(machineData);
 });
 
-module.exports = {
-    machineController
-}
+module.exports =  machineController

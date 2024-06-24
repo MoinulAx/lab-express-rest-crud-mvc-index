@@ -9,6 +9,4 @@ specialEventController.get("/", (req, res) => {
 });
 
 
-module.exports = {
-    specialEventController
-}
+module.exports = specialEventController
